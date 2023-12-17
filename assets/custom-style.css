@@ -75,3 +75,6 @@
   justify-content: flex-end;
   align-items: center;
 }
+.product-label{
+  width: 100%;
+}
