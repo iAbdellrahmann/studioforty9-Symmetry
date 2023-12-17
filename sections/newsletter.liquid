@@ -83,6 +83,10 @@ text-transform: uppercase;
             </div>
           {% endif %}
           <input type="hidden" name="contact[tags]" value="prospect,newsletter"/>
+            <label for="email-input">
+    {{ 'layout.signup.placeholder' | t }}
+  </label>
+
           <div class="signup-form__inline-container">
             <input type="email"
               placeholder="{{ 'layout.signup.placeholder' | t }}"
