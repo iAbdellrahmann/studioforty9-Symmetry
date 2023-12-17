@@ -12,13 +12,18 @@
     }
     .newsletter-container{
       background: {{ section.settings.color_bg }};
-      width: 50%;
-      padding: 4rem;
+      padding: 2rem;
       margin: 0 auto;
     }
         .signup-form__inline-container button{
   flex:50%;
 }
+    @media screen and (min-width:768px){
+      .newsletter-container{
+        width: 50%;
+        padding: 4rem;
+      }
+    }
     {% if brightness < 190 and alpha > 0 %}
     #section-id-{{ section.id }},
     #section-id-{{ section.id }} .hometitle,
