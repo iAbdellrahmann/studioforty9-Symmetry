@@ -1,0 +1,185 @@
+{% style %}
+  .image-grid-container {  
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 12px 12px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "image-one main-image"
+    "image-two main-image";
+}
+
+.image-one { grid-area: image-one; background: {{section.settings.image_one_background}}; }
+
+.image-two { grid-area: image-two; background: {{section.settings.image_two_background}}; }
+
+.main-image { grid-area: main-image; 
+             position:relative; }
+.image-grid_left{
+  display:flex;
+}
+  .image-grid__image {
+    max-width: 50%;
+}
+.image-grid__image img,
+  .main-image img{
+    height: 100%;
+    object-fit: cover;
+}
+  .image-data {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+  .image-data > * {
+    color: {{section.settings.data_text_color}};
+  }
+  .main-image-data{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .main-image .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display:block;
+     color: transparent;
+    background: rgba(0, 0, 0, .6);
+}
+  .image-data__link{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 14px */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    border: 1px solid {{section.settings.data_text_color}};
+  }
+{% endstyle %}
+<div class="container cf fully-spaced-row--medium">
+<div class="image-grid-container">
+  <div class="image-grid_left image-one">
+    <div class="image-grid__image">
+    {{ section.settings.image_one | image_url: width: 1280 | image_tag }}
+    </div>
+    <div class="image-data">
+      <h2>{{ section.settings.image_one_heading }}</h2>
+      <div class="overlay-text__subheading subheading subheading--over">{{ section.settings.image_one_paragraph }}</div>
+      <a class="image-data__link" href="{{ section.settings.link_one }}">{{ section.settings.link_one_text }}</a>
+    </div>
+  </div>
+  <div class="image-grid_left image-two">
+    <div class="image-grid__image">
+    {{ section.settings.image_two | image_url: width: 1280 | image_tag }}
+    </div>
+    <div class="image-data">
+      <h2>{{ section.settings.image_two_heading }}</h2>
+      <div class="overlay-text__subheading subheading subheading--over">{{ section.settings.image_two_paragraph }}</div>
+      <a class="image-data__link" href="{{ section.settings.link_two }}">{{ section.settings.link_two_text }}</a>
+    </div>
+  </div>
+  <div class="main-image">
+     <div class="after"></div>
+  {{ section.settings.main_image | image_url: width: 1280 | image_tag }}
+    
+  <div class="main-image-data">
+   
+      <h2>{{ section.settings.main_image_heading }}</h2>
+      <div class="overlay-text__subheading subheading subheading--over">{{ section.settings.main_image_paragraph }}</div>
+      <a class="image-data__link" href="{{ section.settings.link_three }}">{{ section.settings.link_three_text }}</a>
+    </div>
+  </div>
+</div>
+  </div>
+{% schema %}
+  {
+    "name": "image grid",
+    "settings": [
+      {
+        "type" : "image_picker",
+        "id" : "image_one",
+        "label" : "image one"
+      },
+      {
+        "type" : "text",
+        "id" : "image_one_heading",
+        "label" : "image one heading"
+      },
+      {
+        "type" : "richtext",
+        "id" : "image_one_paragraph",
+        "label" : "image one paragraph"
+      },
+      {
+        "type" : "url",
+        "id" : "link_one",
+        "label" : "link one"
+      },
+      {
+        "type" : "text",
+        "id" : "link_one_text",
+        "label" : "link one text"
+      },
+      {
+        "type" : "image_picker",
+        "id" : "image_two",
+        "label" : "image two"
+      },
+      {
+        "type" : "text",
+        "id" : "image_two_heading",
+        "label" : "image two heading"
+      },
+      {
+        "type" : "richtext",
+        "id" : "image_two_paragraph",
+        "label" : "image two paragraph"
+      },
+ {
+        "type" : "url",
+        "id" : "link_two",
+        "label" : "link two"
+      },
+      {
+        "type" : "text",
+        "id" : "link_two_text",
+        "label" : "link two text"
+      },
+
+      {
+        "type" : "image_picker",
+        "id" : "main_image",
+        "label" : "main image"
+      },
+      {
+        "type" : "text",
+        "id" : "main_image_heading",
+        "label" : "main image heading"
+      },
+      {
+        "type" : "richtext",
+        "id" : "main_image_paragraph",
+        "label" : "main image  paragraph"
+      },
+       {
+        "type" : "url",
+        "id" : "link_three",
+        "label" : "link three"
+      },
+      {
+        "type" : "text",
+        "id" : "link_three_text",
+        "label" : "link three text"
+      }
+    ],
+    "presets" : [{"name" : "image grid"}]
+  }
+{% endschema %}
+
