@@ -81,6 +81,6 @@
       padding: .3em 1em;
 }
 .fully-padded-row--large, .strongly-padded-row {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
