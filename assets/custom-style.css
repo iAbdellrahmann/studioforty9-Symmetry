@@ -71,10 +71,7 @@
 .product-price__amount--on-sale{
   color:#DA394C;
 }
-.product-label-container{
-  justify-content: flex-end;
-  align-items: center;
-}
+
 .product-label{
   width: 100%;
 }
