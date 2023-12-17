@@ -71,7 +71,12 @@
 .product-price__amount--on-sale{
   color:#DA394C;
 }
-
 .product-label{
   width: 100%;
+}
+.product-label>span{
+    width: 100%;
+    background: #DA394C;
+    color: white;
+      padding: .3em 1em;
 }
