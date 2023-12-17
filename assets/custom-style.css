@@ -58,3 +58,10 @@
     text-transform: uppercase;
     color: #004289;
 }
+.product-block__title {
+    font-size: 15.812px;
+    font-weight: 500;
+    line-height: 130%;
+    text-transform: capitalize;
+    color: #004289;
+}
