@@ -1,12 +1,18 @@
 <style>
-  a.prev.ltr-icon {
+  a.prev.ltr-icon,
+  a.next.ltr-icon{
     position: absolute;
     z-index: 99;
     background: white;
     border-radius: 50%;
-    left: 2%;
     top: 35%;
 }
+  a.prev.ltr-icon{
+    left: 2%;
+  }
+  a.next.ltr-icon{
+    right:2%;
+  }
 </style>
 
 {%- liquid
