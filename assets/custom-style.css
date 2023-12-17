@@ -68,3 +68,6 @@
 .product-price__compare{
   color: #004289;
 }
+.product-price__amount--on-sale{
+  color:#DA394C;
+}
