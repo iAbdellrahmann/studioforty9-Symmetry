@@ -3,7 +3,8 @@
   {%- assign alpha = section.settings.color_bg | color_extract: 'alpha' -%}
   <style type="text/css">
     #section-id-{{ section.id }} {
-      background: {{ section.settings.color_bg }};
+      /*background: {{ section.settings.color_bg }};*/
+      background: url('{{ section.settings.image_bg | image_url }}');
     }
     {% if brightness < 190 and alpha > 0 %}
     #section-id-{{ section.id }},
