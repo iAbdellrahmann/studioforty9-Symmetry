@@ -84,3 +84,6 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.signup-form__inline-container button{
+  flex:50%;
+}
