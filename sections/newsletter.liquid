@@ -5,6 +5,10 @@
     #section-id-{{ section.id }} {
       /*background: {{ section.settings.color_bg }};*/
       background: url('{{ section.settings.image_bg | image_url }}');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+
     }
     {% if brightness < 190 and alpha > 0 %}
     #section-id-{{ section.id }},
