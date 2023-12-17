@@ -1020,6 +1020,7 @@
     "prod_thumb_hover_image": true,
     "quickbuy_style": "button",
     "prod_block_label_loc": "bottom center",
+    "prod_reduction_show": false,
     "prod_reduction_type": "percent",
     "prod_stock_warn_show": true,
     "prod_stock_warn_limit_int": 5,
