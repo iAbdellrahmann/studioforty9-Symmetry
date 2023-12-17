@@ -36,6 +36,7 @@ text-transform: uppercase;
       line-height: 120%; /* 16.8px */
       letter-spacing: 0.7px;
       text-transform: capitalize;
+      color:#004289;
 
     }
     .newsletter-container h2 {
@@ -83,6 +84,7 @@ text-transform: uppercase;
           {% endif %}
           <input type="hidden" name="contact[tags]" value="prospect,newsletter"/>
           <div class="signup-form__inline-container">
+            <span>{{ 'layout.signup.placeholder' | t }}</span>
             <input type="email"
               placeholder="{{ 'layout.signup.placeholder' | t }}"
               class="signup-form__email"
