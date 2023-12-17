@@ -55,7 +55,8 @@
   -%}
   {%- if sale_label_text -%}
     <span class="product-label product-label--sale">
-      <span>{{ sale_label_text }}</span>
+      {% comment %}<span>{{ sale_label_text }}</span>{% endcomment %}
+    <span>SALE</span>
     </span>
   {%- endif -%}
 
