@@ -1130,6 +1130,7 @@
           },
           "1601372771635": {
             "type": "newsletter",
+            "disabled": true,
             "settings": {
               "title": "Newsletter",
               "text": "<p>Sign up for exclusive offers, original stories, events and more.<\/p>",
