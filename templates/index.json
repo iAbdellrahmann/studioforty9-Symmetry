@@ -128,7 +128,6 @@
     },
     "978661e1-a273-4d5f-82d1-7942a8455b18": {
       "type": "newsletter",
-      "disabled": true,
       "settings": {
         "title": "join our Newsletter",
         "subheading": "<p>Be the first to know about our offers, events &  new arrivals<\/p>",
