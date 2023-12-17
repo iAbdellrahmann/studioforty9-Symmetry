@@ -125,12 +125,21 @@
         "show_view_all": false,
         "full_width": true
       }
+    },
+    "978661e1-a273-4d5f-82d1-7942a8455b18": {
+      "type": "newsletter",
+      "settings": {
+        "title": "join our Newsletter",
+        "subheading": "<p>Be the first to know about our offers, events &  new arrivals<\/p>",
+        "color_bg": "#813535"
+      }
     }
   },
   "order": [
     "16359279164ff7d3f3",
     "60fe9791-d88d-4211-a2d2-aa4ae3961e52",
     "4ade293e-6a7a-40f7-8524-8f1f9505cbbd",
-    "2c5db29c-f895-4cec-a237-256bf327e9e2"
+    "2c5db29c-f895-4cec-a237-256bf327e9e2",
+    "978661e1-a273-4d5f-82d1-7942a8455b18"
   ]
 }
