@@ -114,6 +114,7 @@
     },
     "2c5db29c-f895-4cec-a237-256bf327e9e2": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Our Favourites",
         "collection": "automated-collection",
