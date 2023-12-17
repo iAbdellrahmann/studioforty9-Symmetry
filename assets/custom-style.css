@@ -51,6 +51,7 @@
   .flexible-layout, .fixed-layout{
     margin-bottom:0 !important;
   }
+  
 }
 .product-block .block-inner .vendor {
     font-weight: 700;
@@ -83,7 +84,4 @@
 .fully-padded-row--large, .strongly-padded-row {
     padding-top: 50px;
     padding-bottom: 50px;
-}
-.signup-form__inline-container button{
-  flex:50%;
 }
