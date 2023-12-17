@@ -52,3 +52,9 @@
     margin-bottom:0 !important;
   }
 }
+.product-block .block-inner .vendor {
+    font-weight: 700;
+    letter-spacing: 1.355px;
+    text-transform: uppercase;
+    color: #004289;
+}
