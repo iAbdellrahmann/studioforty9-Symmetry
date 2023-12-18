@@ -82,7 +82,7 @@
               </div>
             {% endif %}
             <input type="hidden" name="contact[tags]" value="prospect,newsletter">
-
+            <div class="label-input">
             <label for="email-input">
               {{ 'layout.signup.placeholder' | t }}
             </label>
@@ -99,6 +99,7 @@
               <button class="button signup-form__button" type="submit">
                 {{- 'layout.signup.submit' | t -}}
               </button>
+            </div>
             </div>
           {% endif %}
         {% endform %}
