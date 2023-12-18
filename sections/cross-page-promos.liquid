@@ -24,7 +24,7 @@
       assign column_width = 'full'
     endif
   %}
-  <div class="container cf cross-page-promos">
+  <div class="{% if section.settings.full-width %} container--no-max {% else %} container {% endif %} cf cross-page-promos">
     <div class="background" style="background: {{ section.settings.background_color }}">
       <div class="flexible-layout {% if column_width == 'quarter' %}layout-all-quarters{% endif %}">
 
