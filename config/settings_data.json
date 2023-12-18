@@ -1115,13 +1115,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "1601372709037": {
-            "type": "menu",
-            "settings": {
-              "title": "Quick links",
-              "menu": "footer"
-            }
-          },
           "bea4bd9b-b58c-45f7-9bb9-de15fb1c2ce2": {
             "type": "text",
             "settings": {
@@ -1144,7 +1137,6 @@
           }
         },
         "block_order": [
-          "1601372709037",
           "bea4bd9b-b58c-45f7-9bb9-de15fb1c2ce2",
           "1601372771635"
         ],
