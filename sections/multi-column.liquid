@@ -8,6 +8,11 @@
   {% endstyle %}
 
   <div class="container">
+    {% if section.settings.subtitle != blank %}
+      <hp class="h6-style align-center" data-cc-animate>
+        {{- section.settings.subtitle | escape -}}
+      </hp>
+    {% endif %}
     {% if section.settings.title != blank %}
       <h2 class="hometitle h4-style align-center" data-cc-animate>
         {{- section.settings.title | escape -}}
