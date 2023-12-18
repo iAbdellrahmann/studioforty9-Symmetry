@@ -1115,16 +1115,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "1601372812538": {
-            "type": "text",
-            "settings": {
-              "title": "Talk about your store",
-              "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
-              "image_width": 55,
-              "show_social_icons": true,
-              "soc_icons_large": true
-            }
-          },
           "1601372709037": {
             "type": "menu",
             "settings": {
@@ -1132,33 +1122,31 @@
               "menu": "footer"
             }
           },
-          "1601372771635": {
-            "type": "newsletter",
-            "disabled": true,
+          "bea4bd9b-b58c-45f7-9bb9-de15fb1c2ce2": {
+            "type": "text",
             "settings": {
-              "title": "Newsletter",
-              "text": "<p>Sign up for exclusive offers, original stories, events and more.<\/p>",
-              "button_style": "primary",
+              "title": "Contact",
+              "text": "<p>Tel           012 3456789<\/p><p>E-mail    hello@domain.com<\/p><p>Lorem Ipsum Outdoor Unit 1, Lipsum,City, Co. County<\/p><p>Follow Us<\/p>",
+              "image_width": 100,
               "show_social_icons": true,
               "soc_icons_large": false
             }
           },
-          "bea4bd9b-b58c-45f7-9bb9-de15fb1c2ce2": {
-            "type": "text",
+          "1601372771635": {
+            "type": "newsletter",
             "settings": {
-              "title": "Talk about your store",
-              "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
-              "image_width": 100,
-              "show_social_icons": true,
+              "title": "Newsletter",
+              "text": "<p>Sign up for exclusive offers, original stories, events and more.<\/p>",
+              "button_style": "primary",
+              "show_social_icons": false,
               "soc_icons_large": false
             }
           }
         },
         "block_order": [
-          "1601372812538",
           "1601372709037",
-          "1601372771635",
-          "bea4bd9b-b58c-45f7-9bb9-de15fb1c2ce2"
+          "bea4bd9b-b58c-45f7-9bb9-de15fb1c2ce2",
+          "1601372771635"
         ],
         "settings": {
           "lower_menu": "",
