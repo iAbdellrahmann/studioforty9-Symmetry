@@ -58,7 +58,6 @@
 }
 .section-footer__row__col.footer_logo {
     max-width: 150px;
-    margin: 0 auto;
 }
 @media screen and (min-width: 768px){
   .section-footer__row__col.footer_logo{
