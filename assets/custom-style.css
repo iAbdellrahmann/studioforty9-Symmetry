@@ -105,6 +105,10 @@
   .lg-heading{
     font-size: 66px;
   }
+      .custom-padding{
+        padding: 70px 60px;
+  }
+  
 }
 .section__link{
   color: #004289 !important;
