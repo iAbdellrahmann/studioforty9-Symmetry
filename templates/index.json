@@ -134,6 +134,71 @@
         "image_bg": "shopify:\/\/shop_images\/5b127116e4dc859206607a762b89d1ab.jpg",
         "color_bg": "#ffffff"
       }
+    },
+    "f34f133d-513a-4ee6-b43a-d5ce4069c831": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21730753642785__f34f133d-513a-4ee6-b43a-d5ce4069c831-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Group.png",
+            "image_width": 60,
+            "title": "WE love outdoors",
+            "text": "<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--21730753642785__f34f133d-513a-4ee6-b43a-d5ce4069c831-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/knitting_1.png",
+            "image_width": 60,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--21730753642785__f34f133d-513a-4ee6-b43a-d5ce4069c831-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/saint-patricks-day_1.png",
+            "image_width": 60,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "35042f36-0e9f-49be-8817-98b0b30cadab": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/knitting_1.png",
+            "image_width": 60,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21730753642785__f34f133d-513a-4ee6-b43a-d5ce4069c831-text_block-1",
+        "template--21730753642785__f34f133d-513a-4ee6-b43a-d5ce4069c831-text_block-2",
+        "template--21730753642785__f34f133d-513a-4ee6-b43a-d5ce4069c831-text_block-3",
+        "35042f36-0e9f-49be-8817-98b0b30cadab"
+      ],
+      "settings": {
+        "title": "Multi-column",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
@@ -141,6 +206,7 @@
     "60fe9791-d88d-4211-a2d2-aa4ae3961e52",
     "4ade293e-6a7a-40f7-8524-8f1f9505cbbd",
     "2c5db29c-f895-4cec-a237-256bf327e9e2",
-    "978661e1-a273-4d5f-82d1-7942a8455b18"
+    "978661e1-a273-4d5f-82d1-7942a8455b18",
+    "f34f133d-513a-4ee6-b43a-d5ce4069c831"
   ]
 }
