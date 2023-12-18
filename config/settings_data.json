@@ -1150,9 +1150,9 @@
         ],
         "settings": {
           "lower_menu": "",
-          "show_payment_icons": true,
-          "show_country_selector": true,
-          "show_language_selector": true
+          "show_payment_icons": false,
+          "show_country_selector": false,
+          "show_language_selector": false
         }
       },
       "announcement-bar": {
@@ -1172,7 +1172,7 @@
           "announcement_bar_col": "#004289",
           "announcement_text_col": "#ffffff",
           "message_font_size": 12,
-          "show_social_icons": true,
+          "show_social_icons": false,
           "menu": "",
           "show_country_selector": false,
           "show_language_selector": false
