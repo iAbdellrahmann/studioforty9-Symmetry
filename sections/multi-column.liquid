@@ -1,4 +1,11 @@
-<div id="section-id-{{ section.id }}" class="{% if section.settings.use_alt_bg %}use-alt-bg fully-padded-row--medium{% else %}fully-spaced-row--medium{% endif %}">
+<style>
+  @media screen and(min-width:768px){
+      .custom-padding{
+        padding: 70px 60px;
+  }
+  }
+</style>
+<div id="section-id-{{ section.id }}" class="{% if section.settings.use_alt_bg %}use-alt-bg fully-padded-row--medium{% else %}fully-spaced-row--medium{% endif %} custom-padding">
   {% style %}
     {%- for block in section.blocks -%}
     #section-id-{{ section.id }} #block-id-{{ block.id }} .text-column__image {
