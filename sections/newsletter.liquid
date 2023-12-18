@@ -87,11 +87,12 @@
             {% endif %}
             <input type="hidden" name="contact[tags]" value="prospect,newsletter">
             <div class="label-input">
-            <label for="email-input">
+            <label for="email-input" class="email-input">
               {{ 'layout.signup.placeholder' | t }}
             </label>
             <div class="signup-form__inline-container">
               <input
+                id="email-input"
                 type="email"
                 placeholder=""
                 class="signup-form__email"
