@@ -1125,7 +1125,7 @@
             "type": "menu",
             "settings": {
               "title": "INFO",
-              "menu": ""
+              "menu": "footer"
             }
           },
           "bea4bd9b-b58c-45f7-9bb9-de15fb1c2ce2": {
