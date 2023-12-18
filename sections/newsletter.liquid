@@ -2,149 +2,149 @@
   {%- assign brightness = section.settings.color_bg | color_brightness -%}
   {%- assign alpha = section.settings.color_bg | color_extract: 'alpha' -%}
   <style type="text/css">
-    #section-id-{{ section.id }} {
-      /*background: {{ section.settings.color_bg }};*/
-      background: url('{{ section.settings.image_bg | image_url }}');
-      background-repeat: no-repeat;
-      background-position: 50% 18%;
-      background-size: cover;
+        #section-id-{{ section.id }} {
+          /*background: {{ section.settings.color_bg }};*/
+          background: url('{{ section.settings.image_bg | image_url }}');
+          background-repeat: no-repeat;
+          background-position: 50% 18%;
+          background-size: cover;
 
-    }
-    .newsletter-container{
-      background: {{ section.settings.color_bg }};
-      padding: 2rem;
-      margin: 0 auto;
-    }
-        .signup-form__inline-container button{
-  flex:50%;
-          font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 100%; /* 16px */
-letter-spacing: 1.6px;
-text-transform: uppercase;
-          background:#004289;
-          color:white;
-}
-    input.signup-form__email {
-    background: #F5F6F4;
-}
-    input.signup-form__email::placeholder{
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 120%; /* 16.8px */
-      letter-spacing: 0.7px;
-      text-transform: capitalize;
-      color:#004289;
-
-    }
-    .newsletter-container h2 {
-    font-size: 36px;
+        }
+        .newsletter-container{
+          background: {{ section.settings.color_bg }};
+          padding: 2rem;
+          margin: 0 auto;
+        }
+            .signup-form__inline-container button{
+      flex:50%;
+              font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 100%; /* 16px */
+    letter-spacing: 1.6px;
     text-transform: uppercase;
-}
-    @media screen and (min-width:768px){
-      .newsletter-container{
-        width: 50%;
-        padding: 4rem;
-      }
-      
+              background:#004289;
+              color:white;
     }
-    {% if brightness < 190 and alpha > 0 %}
-    #section-id-{{ section.id }},
-    #section-id-{{ section.id }} .hometitle,
-    #section-id-{{ section.id }} a {
-      color: #fff;
+        input.signup-form__email {
+        background: #F5F6F4;
     }
-    {% endif %}
-    
+        input.signup-form__email::placeholder{
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 120%; /* 16.8px */
+          letter-spacing: 0.7px;
+          text-transform: capitalize;
+          color:#004289;
+
+        }
+        .newsletter-container h2 {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+        @media screen and (min-width:768px){
+          .newsletter-container{
+            width: 50%;
+            padding: 4rem;
+          }
+
+        }
+        {% if brightness < 190 and alpha > 0 %}
+        #section-id-{{ section.id }},
+        #section-id-{{ section.id }} .hometitle,
+        #section-id-{{ section.id }} a {
+          color: #fff;
+        }
+        {% endif %}
   </style>
   <div class="container strongly-padded-row align-center" data-cc-animate data-cc-animate-delay="0.3s">
-  <div class="newsletter-container">
-    <h2 class="hometitle h4-style in-content">{{ section.settings.title | escape }}</h2>
+    <div class="newsletter-container">
+      <h2 class="hometitle h4-style in-content">{{ section.settings.title | escape }}</h2>
 
-    <div class="rte lightly-spaced-row">{{ section.settings.subheading }}</div>
+      <div class="rte lightly-spaced-row">{{ section.settings.subheading }}</div>
 
-    <div class="signup-form">
-      {% form 'customer', id: 'home_newsletter_signup' %}
-        {% if form.posted_successfully? %}
-          <div class="signup-form__response signup-form__response--success">
-            <h4>{{ 'layout.signup.post_success' | t }}</h4>
-          </div>
-        {% else %}
-          {% if form.errors %}
-            <div class="signup-form__response signup-form__response--error">
-              {% for field in form.errors %}
-                <p class="error">{{ field | capitalize }} - {{ form.errors.messages[field] }}</p>
-              {% endfor %}
+      <div class="signup-form">
+        {% form 'customer', id: 'home_newsletter_signup' %}
+          {% if form.posted_successfully? %}
+            <div class="signup-form__response signup-form__response--success">
+              <h4>{{ 'layout.signup.post_success' | t }}</h4>
+            </div>
+          {% else %}
+            {% if form.errors %}
+              <div class="signup-form__response signup-form__response--error">
+                {% for field in form.errors %}
+                  <p class="error">{{ field | capitalize }} - {{ form.errors.messages[field] }}</p>
+                {% endfor %}
+              </div>
+            {% endif %}
+            <input type="hidden" name="contact[tags]" value="prospect,newsletter">
+
+            <label for="email-input">
+              {{ 'layout.signup.placeholder' | t }}
+            </label>
+            <div class="signup-form__inline-container">
+              <input
+                type="email"
+                placeholder=""
+                class="signup-form__email"
+                value=""
+                name="contact[email]"
+                aria-label="{{ 'layout.signup.input_label' | t | escape }}"
+                required
+              >
+              <button class="button signup-form__button" type="submit">
+                {{- 'layout.signup.submit' | t -}}
+              </button>
             </div>
           {% endif %}
-          <input type="hidden" name="contact[tags]" value="prospect,newsletter"/>
-
-
-          <div class="signup-form__inline-container">
-                        <label for="email-input">
-    {{ 'layout.signup.placeholder' | t }}
-  </label>
-            <input type="email"
-              placeholder=""
-              class="signup-form__email"
-              value=""
-              name="contact[email]"
-              aria-label="{{ 'layout.signup.input_label' | t | escape }}"
-              required />
-            <button class="button signup-form__button" type="submit">
-              {{- 'layout.signup.submit' | t -}}
-            </button>
-          </div>
-        {% endif %}
-      {% endform %}
+        {% endform %}
+      </div>
     </div>
-  </div>
   </div>
 </div>
 
 {% schema %}
-  {
-    "name": "Newsletter",
-    "class": "section-newsletter",
-    "settings": [
-      {
-        "type": "text",
-        "id": "title",
-        "label": "Heading",
-        "default": "Subscribe to our newsletter"
-      },
-	    {
-        "type": "richtext",
-        "id": "subheading",
-        "label": "Subheading",
-        "default": "<p>Promotions, new products and sales. Directly to your inbox.</p>"
-      },
-      {
-        "type" : "image_picker",
-        "id" : "image_bg",
-        "label" : "background image"
-      },
-      {
-        "type": "color",
-        "id": "color_bg",
-        "label": "Background color",
-        "default": "#ffffff"
-      },
-      {
-        "type": "paragraph",
-        "content": "Customers who subscribe will have their email address added to the “accepts marketing” [customer list](/admin/customers?query=&accepts_marketing=1)"
-      }
-    ],
-    "presets": [
-      {
-        "name": "Newsletter",
-        "settings": {}
-      }
-    ]
-  }
+{
+  "name": "Newsletter",
+  "class": "section-newsletter",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Subscribe to our newsletter"
+    },
+   {
+      "type": "richtext",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "<p>Promotions, new products and sales. Directly to your inbox.</p>"
+    },
+    {
+      "type" : "image_picker",
+      "id" : "image_bg",
+      "label" : "background image"
+    },
+    {
+      "type": "color",
+      "id": "color_bg",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "paragraph",
+      "content": "Customers who subscribe will have their email address added to the “accepts marketing” [customer list](/admin/customers?query=&accepts_marketing=1)"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Newsletter",
+      "settings": {}
+    }
+  ]
+}
 {% endschema %}
