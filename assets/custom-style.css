@@ -63,6 +63,9 @@
   .section-footer__row__col.footer_logo{
   margin-left: 110px;
   }
+  .section-footer__text-block--with-text {
+    flex-basis: 230px;
+}
 .custom-search .main-search__form{
   margin:0 auto;
   max-width: 95%;
