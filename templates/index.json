@@ -197,6 +197,8 @@
         "subtitle": "Quisque velit nisi-",
         "title": "\"Pellentesque in ipsum id orci porta dapibus.\"",
         "text_alignment": "center",
+        "url_text": "learn more",
+        "url": "#",
         "button_style": "secondary",
         "use_alt_bg": false
       }
