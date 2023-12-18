@@ -48,7 +48,14 @@
     max-width: 85%;
     margin: 0 auto;
 }
-
+.section__link{
+  color: #004289 !important;
+    border: 1px solid #004289 !important;
+    margin: 0 auto;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
 @media screen and (min-width: 768px){
 .custom-search .main-search__form{
   margin:0 auto;
@@ -108,14 +115,8 @@
       .custom-padding{
         padding: 70px 60px;
   }
-  
-}
-.section__link{
-  color: #004289 !important;
-    border: 1px solid #004289 !important;
-    margin: 0 auto;
+  .section__link{
     width: 15% !important;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
+  }
+  
 }
