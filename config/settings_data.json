@@ -1121,6 +1121,13 @@
               "image": "shopify:\/\/shop_images\/805-04_1-removebg-preview.png"
             }
           },
+          "d7a0a062-dc5a-4bbb-bd89-dac371c67c3b": {
+            "type": "menu",
+            "settings": {
+              "title": "INFO",
+              "menu": ""
+            }
+          },
           "bea4bd9b-b58c-45f7-9bb9-de15fb1c2ce2": {
             "type": "text",
             "settings": {
@@ -1144,6 +1151,7 @@
         },
         "block_order": [
           "b67c65f4-654b-4b1e-bdd7-e59c0e40b6ff",
+          "d7a0a062-dc5a-4bbb-bd89-dac371c67c3b",
           "bea4bd9b-b58c-45f7-9bb9-de15fb1c2ce2",
           "1601372771635"
         ],
