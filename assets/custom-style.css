@@ -63,6 +63,9 @@
     background: #004289;
     padding: 40px;
 }
+a.main-search__results-all-link.button.altcolour {
+    display: none;
+}
 @media screen and (min-width: 768px){
   .section-footer__row__col.footer_logo{
   margin-left: 110px;
