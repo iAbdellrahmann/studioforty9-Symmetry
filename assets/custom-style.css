@@ -127,3 +127,9 @@
   }
   
 }
+@media screen and (min-width: 1024px){
+
+.section-footer__row--blocks[data-num-blocks="4"] {
+    gap: 110px;
+}
+  }
