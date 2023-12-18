@@ -107,8 +107,8 @@
   }
 }
 .section__link{
-  color: #004289;
-    border: 1px solid #004289;
+  color: #004289 !important;
+    border: 1px solid #004289 !important;
     margin: 0 auto;
     width: 15%;
     display: flex;
