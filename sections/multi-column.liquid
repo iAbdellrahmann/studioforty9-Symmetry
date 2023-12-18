@@ -55,7 +55,7 @@
         </div>
       {% endfor %}
     </div>
-    <a class="image-data__link"></a>
+    <a class="section__link" href="{{ section.settings.url }}">{{ section.settings.url_text }}</a>
   </div>
 </div>
 
@@ -97,6 +97,17 @@
       ],
       "default": "center"
     },
+    {
+      "type" : "text",
+    "id":"url_text",
+    "label" : "section link text"
+    },
+    {
+      "type" : "url",
+    "id":"url",
+    "label" : "section link"
+    },
+    
     {
       "type": "select",
       "id": "button_style",
