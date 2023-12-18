@@ -156,8 +156,8 @@
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/knitting_1.png",
             "image_width": 60,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "Sustainable",
+            "text": "<p> Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum.<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -168,8 +168,8 @@
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/saint-patricks-day_1.png",
             "image_width": 60,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "based in IRELAND",
+            "text": "<p> Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur.<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -180,8 +180,8 @@
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/knitting_1.png",
             "image_width": 60,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "something",
+            "text": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit<\/p>",
             "button_label": "",
             "link": ""
           }
