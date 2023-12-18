@@ -194,6 +194,9 @@
         "template--21730753642785__f34f133d-513a-4ee6-b43a-d5ce4069c831-text_block-3",
         "35042f36-0e9f-49be-8817-98b0b30cadab"
       ],
+      "custom_css": [
+        ".flexible-layout{margin: 30px auto !important;}"
+      ],
       "settings": {
         "subtitle": "Quisque velit nisi-",
         "title": "\"Pellentesque in ipsum id orci porta dapibus.\"",
