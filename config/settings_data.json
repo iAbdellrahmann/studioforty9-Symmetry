@@ -1029,6 +1029,10 @@
     "prod_sale_show": false,
     "prod_sold_out_show": true,
     "enable_product_reviews_collection": false,
+    "social_twitter_url": "#",
+    "social_facebook_url": "#",
+    "social_pinterest_url": "#",
+    "social_instagram_url": "#",
     "search_type": "product",
     "enable_live_search": true,
     "live_search_show_vendor": false,
@@ -1138,12 +1142,23 @@
               "show_social_icons": true,
               "soc_icons_large": false
             }
+          },
+          "bea4bd9b-b58c-45f7-9bb9-de15fb1c2ce2": {
+            "type": "text",
+            "settings": {
+              "title": "Talk about your store",
+              "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
+              "image_width": 100,
+              "show_social_icons": true,
+              "soc_icons_large": false
+            }
           }
         },
         "block_order": [
           "1601372812538",
           "1601372709037",
-          "1601372771635"
+          "1601372771635",
+          "bea4bd9b-b58c-45f7-9bb9-de15fb1c2ce2"
         ],
         "settings": {
           "lower_menu": "",
@@ -1168,7 +1183,7 @@
         "settings": {
           "announcement_bar_col": "#004289",
           "announcement_text_col": "#ffffff",
-          "message_font_size": 14,
+          "message_font_size": 12,
           "show_social_icons": true,
           "menu": "",
           "show_country_selector": false,
