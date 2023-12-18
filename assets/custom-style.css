@@ -61,6 +61,9 @@
     margin: 0 auto;
 }
 @media screen and (min-width: 768px){
+  .section-footer__row__col.footer_logo{
+  margin-left: 110px;
+  }
 .custom-search .main-search__form{
   margin:0 auto;
   max-width: 95%;
