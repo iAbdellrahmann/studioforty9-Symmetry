@@ -84,6 +84,7 @@
         "e99b296f-793a-4f88-9934-f510c5d70d34"
       ],
       "settings": {
+        "full-width": false,
         "visibility": "all",
         "background_color": "#004289",
         "text_color": "#ffffff"
@@ -237,6 +238,7 @@
         "249eae0d-7f91-489a-8a4b-d5913591ea48"
       ],
       "settings": {
+        "full-width": true,
         "visibility": "all",
         "background_color": "#004289",
         "text_color": "#ffffff"
