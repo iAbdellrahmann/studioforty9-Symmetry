@@ -100,8 +100,12 @@
                     {% endif %}
                     <input type="hidden" name="contact[tags]" value="prospect,newsletter"/>
                     <p>
+                      <label for="email-input" class="email-input">
+                          {{ 'layout.signup.placeholder' | t }}
+                      </label>
                       <input type="email"
-                        placeholder="{{ 'layout.signup.placeholder' | t }}"
+                        id="email-input"
+                        placeholder=""
                         class="signup-form__email"
                         value=""
                         name="contact[email]"
