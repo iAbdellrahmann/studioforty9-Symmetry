@@ -74,6 +74,13 @@ a.main-search__results-all-link.button.altcolour {
     line-height: normal;
     text-transform: capitalize;
 }
+button.btn.btn--primary.signup-form__button {
+    width: 100%;
+    background: #032C58;
+    border-color: #032C58;
+    color: white;
+    font-weight: 700;
+}
 @media screen and (min-width: 768px){
   .section-footer__row__col.footer_logo{
   margin-left: 110px;
