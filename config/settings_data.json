@@ -1141,8 +1141,8 @@
           "1601372771635": {
             "type": "newsletter",
             "settings": {
-              "title": "Newsletter",
-              "text": "<p>Sign up for exclusive offers, original stories, events and more.<\/p>",
+              "title": "join our Newsletter",
+              "text": "<p>Be the first to know about Our offers, events, new arrivals & sales.<\/p>",
               "button_style": "primary",
               "show_social_icons": false,
               "soc_icons_large": false
