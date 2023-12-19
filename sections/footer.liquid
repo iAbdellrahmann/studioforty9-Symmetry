@@ -79,7 +79,7 @@
               {% endif %}
 
               {% if block.settings.text != blank %}
-                <div class="section-footer__text">
+                <div class="section-footer__text" style="color: white; opacity: 0.6;">
                   {{ block.settings.text }}
                 </div>
               {% endif %}
@@ -100,7 +100,7 @@
                     {% endif %}
                     <input type="hidden" name="contact[tags]" value="prospect,newsletter"/>
                     <p>
-                      <label for="email-input" class="footer-email-input">
+                      <label for="email-input" class="footer-email-input" style="color:white;">
                           {{ 'layout.signup.placeholder' | t }}
                       </label>
                       <input type="email"
