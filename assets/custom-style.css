@@ -66,6 +66,14 @@
 a.main-search__results-all-link.button.altcolour {
     display: none;
 }
+.section-footer__row__col.section-footer__newsletter-block h6 {
+    color: white !important;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
 @media screen and (min-width: 768px){
   .section-footer__row__col.footer_logo{
   margin-left: 110px;
