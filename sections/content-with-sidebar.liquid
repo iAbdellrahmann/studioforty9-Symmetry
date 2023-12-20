@@ -61,23 +61,20 @@
       const sidebarTitles = document.getElementById('sidebarTitles');
       const headings = articleContent.querySelectorAll('h2');
 
-      headings.forEach(function(heading, index) {
+      
+
+    headings.forEach(function(heading, index) {
       if (!heading.id) {
         heading.id = `section-${index + 1}`; // Creating IDs like section-1, section-2, etc.
-        heading.setAttribute('id',`${heading.id}`);
       }
 
-
-      headings.forEach(function(heading) {
-
-        const listItem = document.createElement('li');
-        const link = document.createElement('a');
-        link.textContent = heading.textContent;
-        link.setAttribute('href', `#${heading.id}`);
-
-        listItem.appendChild(link);
-        sidebarTitles.appendChild(listItem);
-      });
+      const listItem = document.createElement('li');
+      const link = document.createElement('a');
+      link.textContent = heading.textContent;
+      link.setAttribute('href', `#${heading.id}`);
+      listItem.appendChild(link);
+      sidebarTitles.appendChild(listItem);
+    });
 
   
       const headingPositions = Array.from(headings).map(heading =>
