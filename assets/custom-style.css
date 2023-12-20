@@ -81,6 +81,10 @@ button.btn.btn--primary.signup-form__button {
     color: white;
     font-weight: 700;
 }
+ul.social-links__list li a{
+  background: #004289;
+  padding: 8px;
+}
 @media screen and (min-width: 768px){
   .section-footer__row__col.footer_logo{
   margin-left: 110px;
