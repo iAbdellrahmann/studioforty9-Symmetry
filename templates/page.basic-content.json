@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "full_width": true
+        "full_width": false
       }
     },
     "9df75f72-d56c-4365-abc2-c53408f62db6": {
