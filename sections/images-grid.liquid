@@ -1,5 +1,14 @@
 {% style %}
+ 
+.image-one { grid-area: image-one; background: {{section.settings.image_one_background}}; }
 
+.image-two { grid-area: image-two; background: {{section.settings.image_two_background}}; }
+
+
+  .image-data > *,
+  .main-image-data > *{
+    color: {{section.settings.data_text_color}};
+  }
 {% endstyle %}
 <div class="container cf fully-spaced-row--medium">
 <div class="image-grid-container">
