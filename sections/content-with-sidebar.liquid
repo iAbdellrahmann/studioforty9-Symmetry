@@ -61,7 +61,6 @@
       const sidebarTitles = document.getElementById('sidebarTitles');
       const headings = articleContent.querySelectorAll('h2');
 
-      // Create sidebar titles
       headings.forEach(function(heading) {
         const listItem = document.createElement('li');
         const link = document.createElement('a');
@@ -71,14 +70,14 @@
         sidebarTitles.appendChild(listItem);
       });
 
-      // Get the top positions of each heading
+  
       const headingPositions = Array.from(headings).map(heading =>
         heading.getBoundingClientRect().top + window.scrollY
       );
 
-      // Function to toggle boldness based on scroll position
+
       function toggleBoldness() {
-        const scrollPosition = window.scrollY + 5; // Adjusted position for better visual feedback
+        const scrollPosition = window.scrollY;
 
         headingPositions.forEach((position, index) => {
           const listItem = sidebarTitles.children[index];
@@ -90,7 +89,6 @@
         });
       }
 
-      // Event listener for scrolling
       window.addEventListener('scroll', toggleBoldness);
     });
   </script>
