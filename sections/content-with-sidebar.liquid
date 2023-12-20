@@ -57,11 +57,33 @@
   </div>
     </div>
 </div>
-  <script>
+<script>
   document.addEventListener("DOMContentLoaded", function() {
     const articleContent = document.querySelector('.article-content');
     const sidebarTitles = document.getElementById('sidebarTitles');
     const headings = articleContent.querySelectorAll('h2');
+
+    const scrollSpy = () => {
+      let fromTop = window.scrollY;
+
+      headings.forEach(heading => {
+        const section = document.getElementById(heading.id);
+        if (
+          section.offsetTop <= fromTop + 170 && // Adjust the offset as needed
+          section.offsetTop + section.offsetHeight > fromTop + 170
+        ) {
+          const sidebarLinks = sidebarTitles.querySelectorAll('a');
+          sidebarLinks.forEach(link => {
+            link.parentElement.classList.remove('bold');
+            if (link.getAttribute('href') === `#${heading.id}`) {
+              link.parentElement.classList.add('bold');
+            }
+          });
+        }
+      });
+    };
+
+    window.addEventListener('scroll', scrollSpy);
 
     headings.forEach(function(heading, index) {
       if (!heading.id) {
