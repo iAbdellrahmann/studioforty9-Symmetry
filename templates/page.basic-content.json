@@ -2,8 +2,14 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "full_width": false
+      }
+    },
+    "b164a10a-0f7d-4e6b-8d51-22e68ffac69b": {
+      "type": "content-with-sidebar",
+      "settings": {
       }
     },
     "9df75f72-d56c-4365-abc2-c53408f62db6": {
@@ -86,6 +92,7 @@
   },
   "order": [
     "main",
+    "b164a10a-0f7d-4e6b-8d51-22e68ffac69b",
     "9df75f72-d56c-4365-abc2-c53408f62db6",
     "9d873b90-4945-49da-a225-31f08e467595"
   ]
