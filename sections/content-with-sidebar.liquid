@@ -19,6 +19,9 @@
       max-width: 70%;
     padding: 60px;
     }
+    .sidebar-container{
+      background: #F5F6F4;
+    }
     .sidebar{
     flex-grow: 1;
     padding: 50px 60px 60px 60px;
@@ -43,10 +46,12 @@
 <div class="article-content">
   {{ page.content }}
 </div>
+  <div class="sidebar-container">
   <div class="sidebar">
     <h2>Sidebar</h2>
     <ul id="sidebarTitles"></ul>
   </div>
+    </div>
 </div>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
