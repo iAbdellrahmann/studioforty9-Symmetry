@@ -66,6 +66,7 @@
         const link = document.createElement('a');
         link.textContent = heading.textContent;
         link.setAttribute('href', `#${heading.id}`);
+        heading.setAttribute('id',`${heading.id}`);
         listItem.appendChild(link);
         sidebarTitles.appendChild(listItem);
       });
