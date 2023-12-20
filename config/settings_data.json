@@ -1132,7 +1132,7 @@
             "type": "text",
             "settings": {
               "title": "Contact",
-              "text": "<p>Tel           &lt;a href=\"tel:+05890000111\"&gt;0-589-0000111&lt;\/a&gt;<\/p><p>E-mail    hello@domain.com<\/p><p>Lorem Ipsum Outdoor<\/p><p>Unit 1, Lipsum,<\/p><p>City, Co. County<\/p><p>Follow Us<\/p>",
+              "text": "<p>Tel <a href=\"tel:012 3456789\" title=\"tel:012 3456789\">012 3456789<\/a><\/p><p>E-mail <a href=\"mailto:hello@domain.com\" title=\"mailto:hello@domain.com\">hello@domain.com<\/a><\/p><p>Lorem Ipsum Outdoor<\/p><p>Unit 1, Lipsum,<\/p><p>City, Co. County<\/p><p>Follow Us<\/p>",
               "image_width": 100,
               "show_social_icons": true,
               "soc_icons_large": true
