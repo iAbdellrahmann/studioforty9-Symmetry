@@ -91,6 +91,7 @@ ul.social-links__list li a svg g{
 .section-footer__text p a {
     color: #004289 !important;
     font-weight: 700;
+  margin-left:12px;
 }
 .main-search__input::placeholder{
   color:#004289;
