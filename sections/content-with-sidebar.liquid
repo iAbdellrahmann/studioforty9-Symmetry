@@ -62,6 +62,7 @@
       const headings = articleContent.querySelectorAll('h2');
 
       headings.forEach(function(heading) {
+        console.log(heading.id)
         const listItem = document.createElement('li');
         const link = document.createElement('a');
         link.textContent = heading.textContent;
