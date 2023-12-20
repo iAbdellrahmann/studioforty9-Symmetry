@@ -58,10 +58,10 @@
     </div>
 </div>
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const articleContent = document.querySelector('.article-content');
-      const sidebarTitles = document.getElementById('sidebarTitles');
-      const headings = articleContent.querySelectorAll('h2');
+  document.addEventListener("DOMContentLoaded", function() {
+    const articleContent = document.querySelector('.article-content');
+    const sidebarTitles = document.getElementById('sidebarTitles');
+    const headings = articleContent.querySelectorAll('h2');
 
     headings.forEach(function(heading, index) {
       if (!heading.id) {
@@ -72,13 +72,28 @@
       const link = document.createElement('a');
       link.textContent = heading.textContent;
       link.setAttribute('href', `#${heading.id}`);
+
+      // Add click event listener to each sidebar link
+      link.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default link behavior
+
+        const targetId = this.getAttribute('href').substring(1); // Get target section ID
+        const targetSection = document.getElementById(targetId); // Get the section element
+        const offset = targetSection.offsetTop; // Calculate the offset
+
+        // Scroll to the target section with adjusted offset
+        window.scrollTo({
+          top: offset - 80, // Adjust this value according to your design
+          behavior: 'smooth'
+        });
+      });
+
       listItem.appendChild(link);
       sidebarTitles.appendChild(listItem);
     });
+  });
+</script>
 
-    
-    });
-  </script>
 
 
 {% schema %}
