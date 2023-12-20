@@ -63,8 +63,6 @@
       const sidebarTitles = document.getElementById('sidebarTitles');
       const headings = articleContent.querySelectorAll('h2');
 
-      
-
     headings.forEach(function(heading, index) {
       if (!heading.id) {
         heading.id = `section-${index + 1}`; // Creating IDs like section-1, section-2, etc.
@@ -78,27 +76,6 @@
       sidebarTitles.appendChild(listItem);
     });
 
-  
-      const headingPositions = Array.from(headings).map(heading =>
-        heading.getBoundingClientRect().top + window.scrollY
-      );
-
-
-      
-      function toggleBoldness() {
-        const scrollPosition = window.scrollY - 20;
-
-        headingPositions.forEach((position, index) => {
-          const listItem = sidebarTitles.children[index];
-          if (scrollPosition >= position) {
-            listItem.classList.add('bold');
-          } else {
-            listItem.classList.remove('bold');
-          }
-        });
-      }
-
-      window.addEventListener('scroll', toggleBoldness);
     
     });
   </script>
