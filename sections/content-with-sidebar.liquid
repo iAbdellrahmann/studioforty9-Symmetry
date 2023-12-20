@@ -1,12 +1,72 @@
+  <style>
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+    .sidebar li {
+      margin-bottom: 10px;
+    }
+    .sidebar a {
+      text-decoration: none;
+    }
+    .bold {
+      font-weight: bold;
+    }
+  </style>
+
+<div class="article-content">
+  {{ page.content }}
+</div>
+  <div class="sidebar">
+    <ul id="sidebarTitles"></ul>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const articleContent = document.querySelector('.article-content');
+      const sidebarTitles = document.getElementById('sidebarTitles');
+      const headings = articleContent.querySelectorAll('h2');
+
+      // Create sidebar titles
+      headings.forEach(function(heading) {
+        const listItem = document.createElement('li');
+        const link = document.createElement('a');
+        link.textContent = heading.textContent;
+        link.setAttribute('href', `#${heading.id}`);
+        listItem.appendChild(link);
+        sidebarTitles.appendChild(listItem);
+      });
+
+      // Get the top positions of each heading
+      const headingPositions = Array.from(headings).map(heading =>
+        heading.getBoundingClientRect().top + window.scrollY
+      );
+
+      // Function to toggle boldness based on scroll position
+      function toggleBoldness() {
+        const scrollPosition = window.scrollY + 20; // Adjusted position for better visual feedback
+
+        headingPositions.forEach((position, index) => {
+          const listItem = sidebarTitles.children[index];
+          if (scrollPosition >= position) {
+            listItem.classList.add('bold');
+          } else {
+            listItem.classList.remove('bold');
+          }
+        });
+      }
+
+      // Event listener for scrolling
+      window.addEventListener('scroll', toggleBoldness);
+    });
+  </script>
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "content with sidebar",
+    "settings": [],
+    "presets" : [
+      {"name" : "content with sidebar"}
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
