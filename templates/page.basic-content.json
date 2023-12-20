@@ -88,12 +88,53 @@
         "button_style": "primary",
         "use_alt_bg": false
       }
+    },
+    "91e496d7-5042-4c6a-9d01-373f84a6b80f": {
+      "type": "cross-page-promos",
+      "blocks": {
+        "9d93a239-d1b9-45f2-8c1e-c14e0fbf6e4d": {
+          "type": "icon",
+          "settings": {
+            "icon": "return-box",
+            "text": "28 day returns",
+            "link_url": ""
+          }
+        },
+        "b19b17aa-c370-44ea-a345-2bf138b0e498": {
+          "type": "icon",
+          "settings": {
+            "icon": "shipping_truck",
+            "text": "free delivery on orders over €40",
+            "link_url": ""
+          }
+        },
+        "bcbeddf7-a81f-4b19-89d8-656ed4a6784e": {
+          "type": "icon",
+          "settings": {
+            "icon": "map",
+            "text": "Irish Family Business Since 1984",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "9d93a239-d1b9-45f2-8c1e-c14e0fbf6e4d",
+        "b19b17aa-c370-44ea-a345-2bf138b0e498",
+        "bcbeddf7-a81f-4b19-89d8-656ed4a6784e"
+      ],
+      "settings": {
+        "full-width": true,
+        "visibility": "all",
+        "background_color": "#004289",
+        "text_color": "#ffffff"
+      }
     }
   },
   "order": [
     "main",
     "b164a10a-0f7d-4e6b-8d51-22e68ffac69b",
     "9df75f72-d56c-4365-abc2-c53408f62db6",
-    "9d873b90-4945-49da-a225-31f08e467595"
+    "9d873b90-4945-49da-a225-31f08e467595",
+    "91e496d7-5042-4c6a-9d01-373f84a6b80f"
   ]
 }
