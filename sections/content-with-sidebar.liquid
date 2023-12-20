@@ -62,11 +62,11 @@
       const headings = articleContent.querySelectorAll('h2');
 
       headings.forEach(function(heading) {
-        heading.setAttribute('id',`${heading.id}`);
+        heading.setAttribute('id',`${heading.textContent}`);
         const listItem = document.createElement('li');
         const link = document.createElement('a');
         link.textContent = heading.textContent;
-        link.setAttribute('href', `#${heading.id}`);
+        link.setAttribute('href', `#${heading.textContent}`);
 
         listItem.appendChild(link);
         sidebarTitles.appendChild(listItem);
