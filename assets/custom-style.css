@@ -280,7 +280,8 @@ ul.social-links__list li a svg g{
     padding:1rem;
     white-space: nowrap;
   }
-  .image-grid__image {
-    max-width: 41%;
+.image-grid_left {
+    display: flex;
+    flex-direction: column;
 }
 }
