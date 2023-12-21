@@ -297,8 +297,10 @@ ul.social-links__list li a svg g{
 }
 }
 .section-footer__lower-menu{
-  display:flex;
-  align-items: center;
+    display: flex;
+    align-items: flex-start;
+    gap: 10rem;
+    justify-content: center;
 }
 .section-footer__lower-menu__list{
       margin: 0;

@@ -150,7 +150,7 @@
         {% endif %}
         {% if section.settings.lower_menu != blank %}
           <div class="section-footer__lower-menu" role="navigation">
-            <div>
+            <div style="display:flex;">
             <span class="copy">Copyright &copy; StudioForty9 |</span>
             <ul class="section-footer__lower-menu__list" aria-label="{{ 'layout.footer.navigation_aria_label' | t | escape }}">
               {% for link in linklists[section.settings.lower_menu].links %}
