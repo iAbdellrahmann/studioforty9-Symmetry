@@ -61,7 +61,7 @@
 }
 .section-footer__row__col.section-footer__newsletter-block {
     background: #004289;
-    padding: 40px;
+    padding: 40px !important;
 }
 a.main-search__results-all-link.button.altcolour {
     display: none;
