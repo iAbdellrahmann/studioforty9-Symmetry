@@ -33,7 +33,7 @@
         {%- if section.blocks.size > 0 -%}
           <div class="announcement-bar__announcements">
             {%- for block in section.blocks -%}
-              {% render 'icon', icon: block.settings.icon, size: 'small' %}
+              {% render 'icon', icon: block.settings.icon, size: 'medium' %}
               <div class="announcement{% unless forloop.first %} announcement--inactive{% endunless %}" {{ block.shopify_attributes }}>
                 <div class="announcement__text">{{ block.settings.text }}</div>
               </div>
