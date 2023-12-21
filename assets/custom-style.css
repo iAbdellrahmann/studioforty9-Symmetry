@@ -254,6 +254,10 @@ ul.social-links__list li a svg g{
   .section__link{
     width: 15% !important;
   }
+
+.section-footer__row-lower .section-footer__row__col:first-child {
+  width:100%;
+}
   
 }
 @media screen and (min-width: 1024px){
