@@ -150,6 +150,7 @@
         {% endif %}
         {% if section.settings.lower_menu != blank %}
           <div class="section-footer__lower-menu" role="navigation">
+            <div>
             <span class="copy">Copyright &copy; StudioForty9 |</span>
             <ul class="section-footer__lower-menu__list" aria-label="{{ 'layout.footer.navigation_aria_label' | t | escape }}">
               {% for link in linklists[section.settings.lower_menu].links %}
@@ -160,6 +161,7 @@
                 </li> {% unless forloop.last %} | {% endunless %}
               {% endfor %}
             </ul>
+            </div>
              {{ images['builtbysf9_1.png'] | image_url: width: 120 | image_tag }}
           </div>
          
