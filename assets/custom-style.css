@@ -259,6 +259,9 @@ ul.social-links__list li a svg g{
     flex-grow:0;
   }
   }
+.signup-form__inline-container button{
+  border:none;
+}
 @media screen and (max-width:768px){
   .image-grid-container{
     display:flex;
