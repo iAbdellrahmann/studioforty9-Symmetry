@@ -150,7 +150,6 @@
 @font-face{
     font-family: IBM Plex Sans Condensed;
    src: url("{{ '[IBMPlexSansCondensed-SemiBold]' | file_url }}") format("[TTF]");
-   font-weight:700;
   
 }
 /* Component variables */
@@ -6443,7 +6442,7 @@ input[type=button] {
   transition: background-color 100ms, color 100ms, border-color 100ms, opacity 100ms;
   display: inline-block;
     font-family: IBM Plex Sans Condensed, {{ base_font.fallback_families }};
-    font-weight: {{ base_font.weight }};
+    font-weight: 700 /*{{ base_font.weight }}*/;
     font-style: {{ base_font.style }};
   letter-spacing: {{ button_letter_spacing }};
   text-transform: {{ button_text_transform }};
