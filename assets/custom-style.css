@@ -186,6 +186,18 @@ ul.social-links__list li a svg g{
     align-items: flex-end;
     gap: 10px;
 }
+.section-footer__lower-menu{
+    display: flex;
+    align-items: flex-start;
+    gap: 10rem;
+    justify-content: center;
+}
+.section-footer__lower-menu__list{
+      margin: 0;
+}
+.section-footer__lower-menu__list li{
+  margin: 0 5px;
+}
 @media screen and (min-width: 768px){
   .section-footer__row__col.footer_logo{
   margin-left: 110px;
@@ -299,16 +311,8 @@ ul.social-links__list li a svg g{
   .image-grid__image {
     max-width: 100%;
 }
-}
-.section-footer__lower-menu{
-    display: flex;
-    align-items: flex-start;
-    gap: 10rem;
-    justify-content: center;
-}
-.section-footer__lower-menu__list{
-      margin: 0;
-}
-.section-footer__lower-menu__list li{
-  margin: 0 5px;
+  .section-footer__lower-menu{
+    flex-direction: column;
+    gap:0;
+  }
 }
