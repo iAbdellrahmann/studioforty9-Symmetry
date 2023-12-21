@@ -1168,7 +1168,8 @@
           "1478526632861": {
             "type": "announcement",
             "settings": {
-              "text": "<p>Order Now for Next Day Delivery <a href=\"#\" title=\"#\">Learn More<\/a><\/p>"
+              "text": "<p>Order Now for Next Day Delivery <a href=\"#\" title=\"#\">Learn More<\/a><\/p>",
+              "icon": "watch"
             }
           }
         },
