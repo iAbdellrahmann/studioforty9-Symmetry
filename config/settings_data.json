@@ -1156,7 +1156,7 @@
           "1601372771635"
         ],
         "settings": {
-          "lower_menu": "",
+          "lower_menu": "footer-lower-menu",
           "show_payment_icons": false,
           "show_country_selector": false,
           "show_language_selector": false
