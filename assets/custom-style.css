@@ -264,4 +264,7 @@ ul.social-links__list li a svg g{
     display:flex;
     flex-direction:column;
   }
+  .signup-form__inline-container button{
+    width:100%;
+  }
 }
