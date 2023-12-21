@@ -322,3 +322,9 @@ ul.social-links__list li a svg g{
         justify-content: center;
   }
 }
+/*Boost*/
+.boost-sd__product-image-column>div:last-child{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
