@@ -279,6 +279,8 @@ ul.social-links__list li a svg g{
   .image-data__link{
     padding:1rem;
     white-space: nowrap;
+    width: 100%;
+    justify-content: center;
   }
 .image-grid_left {
     display: flex;
