@@ -270,4 +270,7 @@ ul.social-links__list li a svg g{
   .signup-form__inline-container button{
     width:100%;
   }
+  .image-data{
+    padding:1rem;
+  }
 }
