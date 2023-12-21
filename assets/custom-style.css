@@ -276,4 +276,8 @@ ul.social-links__list li a svg g{
   .image-data h2{
     font-size:24px;
   }
+  .image-data__link{
+    padding:1rem;
+    white-space: nowrap;
+  }
 }
