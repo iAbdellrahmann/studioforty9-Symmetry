@@ -167,12 +167,13 @@
          
         {% endif %}
       </div>
+      {% if section.settings.show_language_selector or section.settings.show_country_selector %}
       <div class="section-footer__row__col">
-        {% if section.settings.show_language_selector or section.settings.show_country_selector %}
+        
           <div class="section-footer__localization">
             {% render 'localization', input_prefix: 'footer' %}
           </div>
-        {% endif %}
+        
 {% comment %}
         <div class="copyright">
           <span class="copy">&copy; {{ "now" | date: "%Y" }} <a href="{{ routes.root_url }}">{{ shop.name }}</a>.</span>
@@ -182,6 +183,7 @@
         </div>
         {% endcomment %}
       </div>
+        {% endif %}
     </div>
   </div>
 </div>
