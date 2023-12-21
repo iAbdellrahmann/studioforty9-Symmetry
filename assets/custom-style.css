@@ -284,4 +284,7 @@ ul.social-links__list li a svg g{
     display: flex;
     flex-direction: column;
 }
+  .image-grid__image {
+    max-width: 100%;
+}
 }
