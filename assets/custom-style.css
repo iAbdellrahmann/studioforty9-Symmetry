@@ -296,3 +296,9 @@ ul.social-links__list li a svg g{
     max-width: 100%;
 }
 }
+.section-footer__lower-menu{
+  display:flex;
+}
+.section-footer__lower-menu__list{
+      margin: 0;
+}
