@@ -318,4 +318,7 @@ ul.social-links__list li a svg g{
   .section-footer__row--blocks .section-footer__row__col:not(:last-child :first-child){
     padding: 0 40px;
   }
+  .section-footer__row{
+        justify-content: center;
+  }
 }
