@@ -180,6 +180,12 @@ ul.social-links__list li a svg g{
     width: fit-content;
     padding: 1rem 2rem;
 }
+.announcement-bar__announcements {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+}
 @media screen and (min-width: 768px){
   .section-footer__row__col.footer_logo{
   margin-left: 110px;
