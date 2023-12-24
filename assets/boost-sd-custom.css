@@ -51,3 +51,7 @@ span.boost-sd__refine-by-vertical-refine-by-option{
 .boost-sd__filter-option-item-label{
     text-transform:capitalize;
 }
+.boost-sd__filter-option-item-button--with-checkbox:before{
+  width:24px;
+  height:24px;
+}
