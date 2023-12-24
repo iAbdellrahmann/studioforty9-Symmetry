@@ -27,7 +27,8 @@
     font-weight: 700 !important;
 }
 .boost-sd__filter-option-title:before,
-.boost-sd__refine-by-vertical-refine-by-title{
+.boost-sd__refine-by-vertical-refine-by-title,
+span.boost-sd__refine-by-vertical-refine-by-option{
   display:none;
 }
 
@@ -43,4 +44,7 @@
 .boost-sd__refine-by-vertical-refine-by-item svg{
   margin-left:0;
   margin-right:5px;
+}
+.boost-sd__refine-by-vertical-refine-by-value{
+  font-weight:400;
 }
