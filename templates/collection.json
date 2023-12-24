@@ -57,7 +57,7 @@
         "template--21730753282337__30c60c37-90c3-431c-b2c2-eab67eb24f63-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "Rich text",
+            "title": "{{ collection.metafields.custom.section_title.value }}",
             "use_h1": false
           }
         },
