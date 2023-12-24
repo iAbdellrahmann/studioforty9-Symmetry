@@ -48,3 +48,6 @@ span.boost-sd__refine-by-vertical-refine-by-option{
 .boost-sd__refine-by-vertical-refine-by-value{
   font-weight:400;
 }
+.boost-sd__filter-option-item-label{
+    text-transform:capitalize;
+}
