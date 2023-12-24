@@ -18,10 +18,10 @@
             {% endif %}
 
           {% when 'subheading' %}
-            <div class="subheading subheading--over lightly-spaced-row-above" style="color:{{ block.settings.subheading_color }};" {{ block.shopify_attributes }}>{{ block.settings.subheading | escape }}</div>
+            <div class="subheading subheading--over lightly-spaced-row-above"  {{ block.shopify_attributes }}>{{ block.settings.subheading | escape }}</div>
 
           {% when 'text' %}
-            <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+            <div style="color:{{ block.settings.text_color }};" class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
 
           {% when 'button' %}
             <div class="lightly-spaced-row-above button-row" {{ block.shopify_attributes }}>
