@@ -51,6 +51,35 @@
         "subcoll_gall_mobile_layout": "2"
       }
     },
+    "30c60c37-90c3-431c-b2c2-eab67eb24f63": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21730753282337__30c60c37-90c3-431c-b2c2-eab67eb24f63-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "use_h1": false
+          }
+        },
+        "template--21730753282337__30c60c37-90c3-431c-b2c2-eab67eb24f63-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21730753282337__30c60c37-90c3-431c-b2c2-eab67eb24f63-heading-1",
+        "template--21730753282337__30c60c37-90c3-431c-b2c2-eab67eb24f63-text-1"
+      ],
+      "settings": {
+        "height": "large",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
     "aa468e91-3f65-44b9-b3f3-273df7d50d4e": {
       "type": "newsletter",
       "settings": {
@@ -172,6 +201,7 @@
   "order": [
     "89e295a3-3b50-4e8d-b7a4-ef524bf3b018",
     "main",
+    "30c60c37-90c3-431c-b2c2-eab67eb24f63",
     "aa468e91-3f65-44b9-b3f3-273df7d50d4e",
     "5083cc58-6a0b-41b1-9593-b90ac16fcf29",
     "fa5d1bbb-364a-45a5-afcd-916c255ef797"
