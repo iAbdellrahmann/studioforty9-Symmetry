@@ -31,5 +31,5 @@
 }
 .boost-sd__filter-option-swatch-item-img,
 .boost-sd__filter-option-swatch-item-img:before{
-  border:0;
+  border-radius:0;
 }
