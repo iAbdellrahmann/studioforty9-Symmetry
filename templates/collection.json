@@ -77,7 +77,8 @@
         "height": "large",
         "text_alignment": "center",
         "full_width": false,
-        "use_alt_bg": true
+        "use_alt_bg": false,
+        "background_color": "#f5f6f4"
       }
     },
     "aa468e91-3f65-44b9-b3f3-273df7d50d4e": {
