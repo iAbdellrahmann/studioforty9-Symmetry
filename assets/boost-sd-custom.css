@@ -57,3 +57,6 @@ span.boost-sd__refine-by-vertical-refine-by-option{
 .boost-sd__filter-option-item-button--with-checkbox:after{
   border-color:white;
 }
+.boost-sd__filter-option-item-button--with-checkbox:before{
+  border-color:#004289;
+}
