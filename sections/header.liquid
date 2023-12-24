@@ -162,7 +162,7 @@
               {%- elsif section.settings.cart_icon == 'bag' -%}
                 {%- render 'svg-bag' -%}
               {%- else -%}
-                {%- render 'svg-cart' -%}
+                {%- render 'svg-cart' -%} cart 
               {%- endif -%}
               {%- if cart.item_count > 0 -%}
                 <span class="cart-link__count">{{ cart.item_count }}</span>
