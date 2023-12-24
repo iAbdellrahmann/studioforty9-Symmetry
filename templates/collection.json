@@ -64,7 +64,7 @@
         "template--21730753282337__30c60c37-90c3-431c-b2c2-eab67eb24f63-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "text": "<p>{{ collection.metafields.custom.section_description | metafield_tag }}<\/p>",
             "enlarge_text": true
           }
         }
