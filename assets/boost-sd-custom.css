@@ -26,9 +26,11 @@
     font-size: 24px;
     font-weight: 700 !important;
 }
-.boost-sd__filter-option-title:before{
+.boost-sd__filter-option-title:before,
+.boost-sd__refine-by-vertical-refine-by-title{
   display:none;
 }
+
 .boost-sd__filter-option-swatch-item-img,
 .boost-sd__filter-option-swatch-item-img:before{
   border-radius:0;
