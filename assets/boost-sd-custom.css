@@ -52,6 +52,5 @@ span.boost-sd__refine-by-vertical-refine-by-option{
     text-transform:capitalize;
 }
 .boost-sd__filter-option-item-button--with-checkbox:before{
-  width:24px;
-  height:24px;
+   background-color:#0468DB;
 }
