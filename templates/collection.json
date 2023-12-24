@@ -50,11 +50,21 @@
         "subcoll_gall_text_alignment": "center center",
         "subcoll_gall_mobile_layout": "2"
       }
+    },
+    "aa468e91-3f65-44b9-b3f3-273df7d50d4e": {
+      "type": "newsletter",
+      "settings": {
+        "title": "join our Newsletter",
+        "subheading": "<p>Be the first to know about our offers, events &  new arrivals<\/p>",
+        "image_bg": "shopify:\/\/shop_images\/5b127116e4dc859206607a762b89d1ab.jpg",
+        "color_bg": "#ffffff"
+      }
     }
   },
   "order": [
     "89e295a3-3b50-4e8d-b7a4-ef524bf3b018",
-    "main"
+    "main",
+    "aa468e91-3f65-44b9-b3f3-273df7d50d4e"
   ],
   "wrapper": ".boost-sd__product-filter-fallback"
 }
