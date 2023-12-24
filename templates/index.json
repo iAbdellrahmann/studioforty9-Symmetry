@@ -117,7 +117,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Our Favourites",
-        "collection": "automated-collection",
+        "collection": "tops-jackets",
         "show_vendor": true,
         "enable_carousel": true,
         "grid": 4,
@@ -195,7 +195,7 @@
         "35042f36-0e9f-49be-8817-98b0b30cadab"
       ],
       "custom_css": [
-        ".flexible-layout{margin: 30px auto !important;}"
+        ".flexible-layout {margin: 30px auto !important;}"
       ],
       "settings": {
         "subtitle": "Quisque velit nisi-",
