@@ -251,6 +251,7 @@ ul.social-links__list li a svg g{
 
 .navigation .navigation__tier-1>.navigation__item>.navigation__link {
   padding: 0 18px;
+  font-weight:700;
 }
   .navigation{
     border:none;
