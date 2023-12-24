@@ -203,7 +203,7 @@ ul.social-links__list li a svg g{
     align-items: center;
     font-size: 14px;
     color: #004289;
-    gap: 7px;
+    gap: 4px;
 }
 @media screen and (min-width: 768px){
   .section-footer__row__col.footer_logo{
