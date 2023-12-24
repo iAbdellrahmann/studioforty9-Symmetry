@@ -35,3 +35,12 @@
 .boost-sd__filter-option-swatch-item-img:before{
   border-radius:0;
 }
+.boost-sd__refine-by-vertical-refine-by-item{
+  flex-direction: row-reverse;
+    justify-content: flex-end;
+      text-decoration: underline !important;
+}
+.boost-sd__refine-by-vertical-refine-by-item svg{
+  margin-left:0;
+  margin-right:5px;
+}
