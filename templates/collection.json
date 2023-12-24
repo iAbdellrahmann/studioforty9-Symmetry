@@ -67,9 +67,10 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "image": "shopify:\/\/shop_images\/Group.png",
+            "image_width": 60,
+            "title": "WE love outdoors",
+            "text": "<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -78,9 +79,10 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "image": "shopify:\/\/shop_images\/planet-earth_1.png",
+            "image_width": 60,
+            "title": "Sustainable",
+            "text": "<p> Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum.<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -89,9 +91,22 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "image": "shopify:\/\/shop_images\/saint-patricks-day_1.png",
+            "image_width": 60,
+            "title": "based in IRELAND",
+            "text": "<p> Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "223906a7-d6ad-4331-b34c-ada4b893dd34": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/knitting_1.png",
+            "image_width": 60,
+            "title": "something",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -100,11 +115,12 @@
       "block_order": [
         "template--21730753282337__5083cc58-6a0b-41b1-9593-b90ac16fcf29-text_block-1",
         "template--21730753282337__5083cc58-6a0b-41b1-9593-b90ac16fcf29-text_block-2",
-        "template--21730753282337__5083cc58-6a0b-41b1-9593-b90ac16fcf29-text_block-3"
+        "template--21730753282337__5083cc58-6a0b-41b1-9593-b90ac16fcf29-text_block-3",
+        "223906a7-d6ad-4331-b34c-ada4b893dd34"
       ],
       "settings": {
-        "subtitle": "Multi-column",
-        "title": "Multi-column",
+        "subtitle": "Quisque velit nisi-",
+        "title": "\"Pellentesque in ipsum id orci porta dapibus.\"",
         "text_alignment": "center",
         "url_text": "learn more",
         "url": "",
