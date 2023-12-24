@@ -166,6 +166,8 @@
               {%- endif -%}
               {%- if cart.item_count > 0 -%}
                 <span class="cart-link__count">{{ cart.item_count }}</span>
+                {% else %}
+                <span class="cart-link__count">0</span>
               {%- endif -%}
             </span>
           </a>
