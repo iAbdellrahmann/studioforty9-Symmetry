@@ -29,3 +29,7 @@
 .boost-sd__filter-option-title:before{
   display:none;
 }
+.boost-sd__filter-option-swatch-item-img,
+.boost-sd__filter-option-swatch-item-img:before{
+  border:0;
+}
